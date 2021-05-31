@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="estilos/estiloscontacto.css">
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script defer src="js/mb.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+      <meta charset="utf-8"/>
+      <title>Contacto</title>
+    </head>
+    <body class="deep-purple lighten-4">
+        <nav>
+            <div class="nav-wrapper  purple darken-3">
+                <div class="hide-on-med-and-down">
+                    <a href="index.html" class="brand-logo left"><img src="images\logo_materialize.png" width="41%"></a>
+                </div>
+                <div class="hide-on-large-only">
+                    <a href="index.html" class="brand-logo left"><img src="images\logo_materialize.png" width="36%"></a>
+                </div>
+                <ul id="nav" class="hide-on-med-and-down right">
+                    <li><a href="index.html" class="li1">Inicio</a></li>
+                    <li><a href="galeria.html" class="li1">Galeria </a></li>
+                    <li><a href="contacto.html" class="li1">Contacto </a></li>
+                </ul>
+                <ul id="mobile-menu" class="hide-on-large-only right">
+                    <li><a href="index.html"><i class="material-icons">home</i></a></li>
+                    <li><a href="galeria.html"><i class="material-icons">photo_library</i></a></li>
+                    <li><a href="contacto.html"><i class="material-icons">email</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <form action="https://mailthis.to/Atesaki" method="POST" encType="multipart/form-data" class="noselect">
+                <h4>Formulario de contacto</h4>
+                <p>Complete los campos, y a la brevedad nos contactaremos con usted.</p>
+                <div class="row">
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input name="nombre" type="text" class="validate" placeholder="Nombre y Apellido">
+                        <label class="active" for="nombre">Nombre completo</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">today</i>
+                        <input name="fnacimiento" type="date" class="validate">
+                        <label class="active" for="fnacimiento">Fecha de Nacimiento</label>
+                        <span class="helper-text" data-error="Fecha errónea" data-success="Ok"></span>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input name="email" type="email" class="validate" placeholder="nombre@mail.com">
+                        <label class="active" for="email">Correo electrónico</label>
+                    </div>
+                    <!--
+                    <div class="input-field">
+                        <i class="material-icons prefix">photo</i>
+                        <label class="active" for="imagen">Imagen a Presentar</label> <br>
+                        <input name="imagen" type="file" class="validate">
+                    </div> El archivo no llega al mail -->
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <input name="comentarios" type="text" class="validate" placeholder="Ingrese su comentario">
+                        <label class="active" for="comentarios">Comentarios</label>
+                    </div>
+                </div>
+                <div class="row center">
+                    <button class="waves-effect waves-teal btn-flat" type="submit">Enviar
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>  
+            </form>                      
+        </main>
+        <div class="hide-on-med-and-down" id="footer1">
+            <footer class="page-footer grey darken-2" class="row">
+                <div class="container">
+                    <div class="row" class="col 16 s12">
+                        <h5 class="white-text"><blockquote>Gracias</blockquote></h5> 
+                        <p class="grey-text text-lighten-4">Esta pagina es comunitaria y todas sus obras son de la comunidad que la visita, como siempre estan los links de sus autores en las respectivas paginas.</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error… orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a porttitor nisi. In in rutrum ante. Etiam pharetra dapibus est ac sollicitudin. Sed commodo leo massa, nec interdum metus iaculis ut. Nam lacinia eros et rutrum tempus. Donec lacus turpis, volutpat vitae viverra eu, convallis id erat. Donec lobortis mi non interdum cursus. Vivamus vel rutrum tortor. In non ipsum pretium, euismod ante ac, bibendum elit. Quisque et dui magna. Pellentesque venenatis vestibulum nisi, sed dapibus sem rutrum nec. In eget aliquet sapien, at efficitur ligula. Aenean fermentum erat at odio porta, in interdum ex interdum.</p>
+                    </div>
+                </div>
+                <div class="footer-copyright">© 2021 ChacaCopyright</div>
+            </footer>
+        </div>
+        <div class="hide-on-large-only" id="footer2">
+            <footer class="page-footer grey darken-2" class="row">
+                <div class="container">
+                    <div class="row" class="col 16 s12">
+                        <h5 class="white-text"><blockquote>Gracias</blockquote></h5> 
+                        <p class="grey-text text-lighten-4">Esta pagina es comunitaria y todas sus obras son de la comunidad que la visita, como siempre estan los links de sus autores en las respectivas paginas.</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error… orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a porttitor nisi. In in rutrum ante. Etiam pharetra dapibus est ac sollicitudin. Sed commodo leo massa, nec interdum metus iaculis ut. Nam lacinia eros et rutrum tempus. Donec lacus turpis, volutpat vitae viverra eu, convallis id erat. Donec lobortis mi non interdum cursus. Vivamus vel rutrum tortor. In non ipsum pretium, euismod ante ac, bibendum elit. Quisque et dui magna. Pellentesque venenatis vestibulum nisi, sed dapibus sem rutrum nec. In eget aliquet sapien, at efficitur ligula. Aenean fermentum erat at odio porta, in interdum ex interdum.</p>
+                    </div>
+                </div>
+                <div class="footer-copyright">© 2021 ChacaCopyright</div>
+            </footer>
+        </div>
+    </body>
+</html>
