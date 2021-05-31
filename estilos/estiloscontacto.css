@@ -1,0 +1,19 @@
+time{
+    color: #999;
+}
+.noselect{
+    -moz-user-select: none; 
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none; 
+}
+::placeholder{
+    color: #999;
+}
+#footer1{
+    margin-top: 11%;
+}
+
+#footer2{
+    margin-top: 25.5%;
+}
